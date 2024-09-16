@@ -1,0 +1,107 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212; /* Dark background for the entire page */
+}
+
+.music-player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e; /* Dark gray container */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4); /* Darker shadow */
+    border-radius: 20px;
+    padding: 30px;
+    width: 350px;
+}
+
+.music-player {
+    text-align: center;
+    width: 100%;
+}
+
+.music-player h2 {
+    font-size: 24px;
+    color: #ffffff; /* White text for the title */
+    margin-bottom: 20px;
+}
+
+.album-art {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow */
+}
+
+/* Audio Player Controls */
+audio {
+    width: 100%;
+    margin: 20px 0;
+    outline: none;
+}
+
+/* Song Information */
+.song-info {
+    margin-bottom: 20px;
+}
+
+#song-title {
+    font-size: 18px;
+    color: #1db954; /* Spotify-like green for the song title */
+    font-weight: bold;
+}
+
+#song-artist {
+    font-size: 14px;
+    color: #cccccc; /* Lighter gray for the artist name */
+    margin-top: 5px;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: #333333; /* Darker buttons */
+    color: white;
+    width: 48%;
+}
+
+/* Button Hover Effects */
+button:hover {
+    background-color: #444444; /* Lighter on hover */
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 500px) {
+    .music-player-container {
+        width: 300px;
+        padding: 20px;
+    }
+
+    .music-player h2 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}

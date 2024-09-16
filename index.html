@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="music-player-container">
+        <div class="music-player">
+            <h2>Music Player</h2>
+            <img id="album-art" src="images/default.gif" alt="Album Art" class="album-art">
+            <audio id="audio-player" controls>
+                <source
+                    src="music/Baazi - Supreme Sidhu, Talwiinder (Official Audio) - www.youtube.com_(www.KeepVid.to).mp3"
+                    type="audio/mp3">
+                <source src="music/Be Happy - UNEXPECTED 320 Kbps.mp3" type="audio/mp3">
+                <source src="music/Dilan Di Gall - Satinder Sartaaj.mp3" type="audio/mp3">
+                <source src="music/Galwakdi.mp3" type="audio/mp3">
+                <source src="music/Ik Lamha(PagalWorldl).mp3" type="audio/mp3">
+                <source src="music/Udaarian.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="song-info">
+                <p id="song-title">Song Title</p>
+                <p id="song-artist">Artist</p>
+            </div>
+
+            <div class="nav-buttons">
+                <button id="prev-btn">Previous Song</button>
+                <button id="next-btn">Next Song</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

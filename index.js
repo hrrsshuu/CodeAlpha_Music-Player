@@ -13,25 +13,25 @@ const songs = [
     },
     {
         title: "Dilan Di Gall",
-        artist: "Satinder Sartaaj",
+        artist: "Neeru Bajwa, Wamiqa Gabbi",
         src: "music/Dilan Di Gall - Satinder Sartaaj.mp3",
         image: "images/default.gif"
     },
     {
         title: "Galwakdi",
-        artist: "Artist Name",
+        artist: "Tarsem Jassar",
         src: "music/Galwakdi.mp3",
         image: "images/galwakdi.jpeg"
     },
     {
         title: "Ik Lamha",
-        artist: "Artist Name",
+        artist: "Azaan Sami Khan ft. Maya Ali",
         src: "music/Ik Lamha(PagalWorldl).mp3",
         image: "images/ek-lamha.jpeg"
     },
     {
         title: "Udaarian",
-        artist: "Artist Name",
+        artist: "Satinder Sartaaj",
         src: "music/Udaarian.mp3",
         image: "images/udarian.jpeg"
     }
